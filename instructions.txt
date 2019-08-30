@@ -1,0 +1,37 @@
+Requirements:
+
+1.Install python 3 and pip then Install the following python libraries. I am using Windows so to install in windows the steps are as follows:
+	a. Open Command Prompt
+	b. Write "pip install library_name" 
+	c. Hit enter key
+Libraries Required:
+	a. selenium
+	b. glob
+	c. lxml
+	d.html5lib
+	e.re
+	f.os
+	g.BeautifulSoup
+	h.pytesseract
+	i. PIL
+	j. urlib and urlib.request
+	k. ssl
+	l. cv2
+	m. lxml
+	n. Pandas
+	o. time
+	p. datetime
+	q. String
+2. Install geckodriver(attached with the mail) and add it to the user/system path.
+3. Install tesseract module inside pytesseract library and add it to the user/system path.
+4. In function get_captcha_text():
+	a. for line number 33 (pytesseract.pytesseract.tesseract_cmd) mention the tesseract user/system path after '=' in the format as in the code.
+5. Create a folder and place the code over there.
+6. Open cmd move to the folder and run the code.
+
+Note:- 
+1. There are many time.sleep() function in the code. I used it since my internet speed was slow 
+but you may reduce the number inside the function depending upon the speed. The use was to let the browser load the page before implementing the code.
+2. Also The program automatically creates the folder after District->Year->Alphabet->Plot Number-> and Village selected.
+3.If records are found they are stored there else the folder gets deleted.
+4.The indexII will be stored as html file.
