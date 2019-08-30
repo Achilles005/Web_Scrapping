@@ -22,7 +22,7 @@ Libraries Required:
 	o. time
 	p. datetime
 	q. String
-2. Install geckodriver(attached with the mail) and add it to the user/system path.
+2. Install geckodriver for firefox and add it to the user/system path.
 3. Install tesseract module inside pytesseract library and add it to the user/system path.
 4. In function get_captcha_text():
 	a. for line number 33 (pytesseract.pytesseract.tesseract_cmd) mention the tesseract user/system path after '=' in the format as in the code.
